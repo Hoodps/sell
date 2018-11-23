@@ -40,4 +40,10 @@ public class ProductInfoRepositoryTest {
         List<ProductInfo> productInfoList = repository.findByProductStatus(0);
         Assert.assertNotEquals(0, productInfoList.size());
     }
+
+    @Test
+    public void findOneTest(){
+        ProductInfo productInfo = repository.findById("123456").orElse(null);
+        System.out.println(productInfo.toString());
+    }
 }
