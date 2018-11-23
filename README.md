@@ -5,6 +5,7 @@ weixin sell
 
 + Alt+Enter  导入包
 + Alt+Insert  get set
++ Shift+Enter  光标下一行
 
 
 # 报错
