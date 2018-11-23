@@ -16,7 +16,6 @@ public class ProductCategory {
 
     @Id // 主键
     @GeneratedValue(strategy = GenerationType.IDENTITY)  // 自增
-
     private Integer categoryId;
 
     private String categoryName;
